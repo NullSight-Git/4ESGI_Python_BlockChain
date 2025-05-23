@@ -45,3 +45,13 @@ Flask Routes
  - /register_node : ajoute un nœud pair
 
  - /sync : tente de synchroniser avec les pairs
+
+![image](https://github.com/user-attachments/assets/90a97ba4-30bb-4bbc-95c3-902be433b9de)
+![image2](https://github.com/user-attachments/assets/ad4f7471-4ace-46e1-be47-ad43109f5f1f)
+![image3](https://github.com/user-attachments/assets/a2f3813b-aaed-4e98-9889-630818d1bc17)
+![image4](https://github.com/user-attachments/assets/b9196ccf-4a4b-402e-96a0-1f38e60aed9d)
+
+
+
+
+
