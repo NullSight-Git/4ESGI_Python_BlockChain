@@ -17,13 +17,13 @@ Fonctionnalités
 
     Exemples de tests pour chaque bouton sur l'interface Web
    
-[Bouton 	                                           Action]
-[Ajouter transaction	                            Entrer "Alice" ➜ "Bob" et valider. La transaction "Alice -> Bob" est ajoutée au pool.]
-[Miner	                                          Mine un bloc avec les transactions du pool (ou "System -> Miner" si vide).]
-[Attaque 51%	                                    Modifie manuellement le contenu du dernier bloc. Le hash devient invalide ➜ chaîne détectée comme corrompue.]
-[Réinitialiser	                                  Réinitialise la blockchain (supprime tous les blocs sauf le Genesis).]
-[Ajouter nœud	                                    Dans l’instance 5000, entrer http://127.0.0.1:5001 pour ajouter un autre nœud.]
-[Synchroniser avec pairs	                        L’instance 5000 compare sa chaîne à celle du nœud pair et la remplace si celle du pair est plus longue ET valide.]
+|:Bouton| 	                                           |Action:|
+|:Ajouter transaction|                            |Entrer "Alice" ➜ "Bob" et valider. La transaction "Alice -> Bob" est ajoutée au pool:|
+|:Miner|	                                          |Mine un bloc avec les transactions du pool (ou "System -> Miner" si vide):|
+|:Attaque 51%	                                    |Modifie manuellement le contenu du dernier bloc. Le hash devient invalide ➜ chaîne détectée comme corrompue:|
+|:Réinitialiser|	                                  |Réinitialise la blockchain (supprime tous les blocs sauf le Genesis):|
+|:Ajouter nœud|	                                    |Dans l’instance 5000, entrer http://127.0.0.1:5001 pour ajouter un autre nœud:|
+|:Synchroniser avec pairs|	                        |L’instance 5000 compare sa chaîne à celle du nœud pair et la remplace si celle du pair est plus longue ET valide:|
 
 Blockchain
  - Block : objet contenant transactions, hash, timestamp, Merkle root, etc.
