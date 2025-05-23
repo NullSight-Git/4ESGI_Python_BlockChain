@@ -1,3 +1,16 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# - Description  : Ce script implémente une mini blockchain pédagogique avec une interface web Flask.
+#                  Il permet d'ajouter des transactions, de miner des blocs, de simuler une attaque 51%, 
+#                  de synchroniser la chaîne avec des pairs et de visualiser la croissance de la blockchain.
+#                  Le code inclut la gestion du Merkle root, la validation de la chaîne et la synchronisation entre nœuds.
+# - Version      : v1.0
+# - Authors      : VALLADE Allan,
+#                  CASAGRANDE Michael,
+#                  OUALI Mohamed,
+#                  CHAMBRE Ryan,
+#                  FALANDRY Enzo
+# ─────────────────────────────────────────────────────────────────────────────
+
 from flask import Flask, render_template_string, request, redirect, url_for, jsonify
 import hashlib
 import time
